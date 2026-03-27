@@ -1,0 +1,1805 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Save $4,000+ Per Year on Your Next Car | Bright Leasing Novated Lease</title>
+  <meta name="description" content="Keep more of your salary with an FBT-exempt novated lease. Pay from pre-tax income, save on GST, and drive a brand new EV. Free quote in 60 seconds." />
+  <link rel="icon" href="../logos/Logo Suite/favicon.ico" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Google Ads conversion tracking — replace with your IDs -->
+  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=AW-XXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'AW-XXXXXXXXX');
+  </script> -->
+
+  <!-- Meta Pixel — replace with your pixel ID -->
+  <!-- <script>
+    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+    n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+    document,'script','https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', 'YOUR_PIXEL_ID');
+    fbq('track', 'PageView');
+  </script> -->
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --navy:  #0f1923;
+      --navy2: #162130;
+      --teal:  #52BAC7;
+      --yellow:#FFBD34;
+      --white: #ffffff;
+      --text-muted: rgba(255,255,255,0.65);
+      --card-bg: #1a2a38;
+      --radius: 12px;
+      --transition: 0.2s ease;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: var(--navy);
+      color: var(--white);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    a { color: inherit; text-decoration: none; }
+    img { display: block; max-width: 100%; }
+
+    /* ─── STICKY HEADER ─── */
+    .header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(15,25,35,0.96);
+      backdrop-filter: blur(8px);
+      border-bottom: 1px solid rgba(82,186,199,0.18);
+    }
+    .header-inner {
+      max-width: 1160px;
+      margin: 0 auto;
+      padding: 14px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+    .header-logo svg {
+      height: 36px;
+      width: auto;
+    }
+    .header-right {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+    .header-phone {
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: var(--teal);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      white-space: nowrap;
+    }
+    .header-phone svg { flex-shrink: 0; }
+
+    /* ─── BUTTONS ─── */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 12px 24px;
+      border-radius: 8px;
+      font-family: 'Poppins', sans-serif;
+      font-size: 0.95rem;
+      font-weight: 600;
+      cursor: pointer;
+      border: none;
+      transition: transform var(--transition), box-shadow var(--transition), filter var(--transition);
+      white-space: nowrap;
+    }
+    .btn:hover { transform: translateY(-1px); }
+    .btn-yellow {
+      background: var(--yellow);
+      color: var(--navy);
+      box-shadow: 0 4px 20px rgba(255,189,52,0.35);
+    }
+    .btn-yellow:hover { filter: brightness(1.06); box-shadow: 0 6px 28px rgba(255,189,52,0.45); }
+    .btn-teal {
+      background: var(--teal);
+      color: var(--navy);
+      box-shadow: 0 4px 16px rgba(82,186,199,0.3);
+    }
+    .btn-teal:hover { filter: brightness(1.06); }
+    .btn-outline {
+      background: transparent;
+      color: var(--white);
+      border: 2px solid rgba(255,255,255,0.3);
+    }
+    .btn-outline:hover { border-color: var(--teal); color: var(--teal); }
+
+    /* ─── HERO ─── */
+    .hero {
+      background: linear-gradient(135deg, #0f1923 0%, #0d2233 55%, #0f1923 100%);
+      padding: 72px 20px 80px;
+      position: relative;
+      overflow: hidden;
+    }
+    .hero::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse 900px 600px at 70% 50%, rgba(82,186,199,0.07) 0%, transparent 70%);
+      pointer-events: none;
+    }
+    .hero-inner {
+      max-width: 1160px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 64px;
+      align-items: center;
+    }
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(255,189,52,0.12);
+      border: 1px solid rgba(255,189,52,0.35);
+      border-radius: 100px;
+      padding: 6px 16px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: var(--yellow);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 20px;
+    }
+    .hero-badge span { width: 6px; height: 6px; background: var(--yellow); border-radius: 50%; display: block; }
+    .hero h1 {
+      font-size: clamp(2rem, 4vw, 3.2rem);
+      font-weight: 800;
+      line-height: 1.12;
+      letter-spacing: -0.5px;
+      margin-bottom: 20px;
+    }
+    .hero h1 .price-highlight {
+      color: var(--yellow);
+      position: relative;
+    }
+    .hero h1 em {
+      font-style: normal;
+      color: var(--teal);
+    }
+    .hero-sub {
+      font-size: 1.05rem;
+      color: var(--text-muted);
+      line-height: 1.7;
+      margin-bottom: 32px;
+      max-width: 480px;
+    }
+    .hero-price-strip {
+      display: flex;
+      gap: 24px;
+      flex-wrap: wrap;
+      margin-bottom: 36px;
+    }
+    .price-card {
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(82,186,199,0.15);
+      border-radius: 10px;
+      padding: 16px 20px;
+      min-width: 140px;
+      transition: border-color var(--transition);
+    }
+    .price-card:hover { border-color: rgba(82,186,199,0.4); }
+    .price-card .model { font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; color: var(--teal); margin-bottom: 4px; }
+    .price-card .amount { font-size: 1.4rem; font-weight: 800; color: var(--yellow); line-height: 1; }
+    .price-card .period { font-size: 0.7rem; color: var(--text-muted); margin-top: 2px; }
+    .hero-cta-group {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+
+    /* ─── QUOTE FORM CARD ─── */
+    .form-card {
+      background: var(--card-bg);
+      border: 1px solid rgba(82,186,199,0.15);
+      border-radius: var(--radius);
+      padding: 36px 32px;
+      box-shadow: 0 24px 64px rgba(0,0,0,0.4);
+    }
+    .form-card h2 {
+      font-size: 1.25rem;
+      font-weight: 700;
+      margin-bottom: 6px;
+    }
+    .form-card > p {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      margin-bottom: 24px;
+    }
+    .form-group { margin-bottom: 16px; }
+    .form-group label {
+      display: block;
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: rgba(255,255,255,0.75);
+      margin-bottom: 6px;
+      text-transform: uppercase;
+      letter-spacing: 0.4px;
+    }
+    .form-group input,
+    .form-group select {
+      width: 100%;
+      padding: 13px 16px;
+      background: rgba(255,255,255,0.06);
+      border: 1px solid rgba(255,255,255,0.12);
+      border-radius: 8px;
+      color: var(--white);
+      font-family: 'Poppins', sans-serif;
+      font-size: 0.95rem;
+      transition: border-color var(--transition), background var(--transition);
+      outline: none;
+      -webkit-appearance: none;
+    }
+    .form-group input::placeholder,
+    .form-group select { color: rgba(255,255,255,0.3); }
+    .form-group select option { background: var(--navy); color: var(--white); }
+    .form-group input:focus,
+    .form-group select:focus {
+      border-color: var(--teal);
+      background: rgba(82,186,199,0.06);
+    }
+    .form-submit {
+      width: 100%;
+      padding: 15px;
+      font-size: 1rem;
+      font-weight: 700;
+      margin-top: 4px;
+    }
+    .form-note {
+      text-align: center;
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      margin-top: 12px;
+    }
+    .form-thankyou {
+      display: none;
+      text-align: center;
+      padding: 24px 0;
+    }
+    .form-thankyou .ty-icon {
+      width: 56px;
+      height: 56px;
+      background: rgba(82,186,199,0.15);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 16px;
+      font-size: 1.6rem;
+    }
+    .form-thankyou h3 {
+      font-size: 1.2rem;
+      font-weight: 700;
+      margin-bottom: 8px;
+      color: var(--teal);
+    }
+    .form-thankyou p {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      margin-bottom: 0;
+    }
+
+    /* ─── MULTI-STEP WIZARD ─── */
+    .wizard-card {
+      background: var(--white);
+      border-radius: 16px;
+      padding: 40px 36px 32px;
+      box-shadow: 0 24px 64px rgba(0,0,0,0.4);
+      color: #1a1a1a;
+      min-height: 340px;
+      display: flex;
+      flex-direction: column;
+    }
+    .wizard-header {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      position: relative;
+      margin-bottom: 24px;
+      min-height: 44px;
+    }
+    .wizard-back {
+      background: var(--yellow);
+      border: none;
+      cursor: pointer;
+      color: var(--teal);
+      font-size: 1.4rem;
+      font-weight: 800;
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: filter 0.2s, transform 0.2s;
+      font-family: 'Poppins', sans-serif;
+      line-height: 1;
+      flex-shrink: 0;
+    }
+    .wizard-back:hover { filter: brightness(1.06); transform: scale(1.05); }
+    .wizard-step-count {
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--teal);
+      text-align: center;
+      margin-top: 8px;
+    }
+    .wizard-question {
+      font-size: 1.35rem;
+      font-weight: 700;
+      text-align: center;
+      margin-bottom: 28px;
+      line-height: 1.3;
+      color: #1a1a1a;
+    }
+    .wizard-body {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .wizard-input-wrap {
+      width: 100%;
+      max-width: 380px;
+      position: relative;
+      margin-bottom: 8px;
+    }
+    .wizard-input-wrap .dollar-prefix {
+      position: absolute;
+      left: 18px;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: #999;
+      pointer-events: none;
+    }
+    .wizard-input {
+      width: 100%;
+      padding: 16px 18px;
+      font-family: 'Poppins', sans-serif;
+      font-size: 1.05rem;
+      border: 2px solid #e0e0e0;
+      border-radius: 10px;
+      outline: none;
+      background: #f8f8f8;
+      color: #1a1a1a;
+      text-align: center;
+      transition: border-color 0.2s;
+    }
+    .wizard-input:focus { border-color: var(--teal); }
+    .wizard-input.has-prefix { padding-left: 40px; }
+    .wizard-select {
+      width: 100%;
+      max-width: 380px;
+      padding: 16px 18px;
+      font-family: 'Poppins', sans-serif;
+      font-size: 1.05rem;
+      border: 2px solid #e0e0e0;
+      border-radius: 10px;
+      outline: none;
+      background: #f8f8f8;
+      color: #1a1a1a;
+      cursor: pointer;
+      -webkit-appearance: none;
+      appearance: none;
+      background-image: url("data:image/svg+xml,%3Csvg width='12' height='8' viewBox='0 0 12 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1.5L6 6.5L11 1.5' stroke='%23999' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: right 16px center;
+      margin-bottom: 8px;
+      transition: border-color 0.2s;
+    }
+    .wizard-select:focus { border-color: var(--teal); }
+    .wizard-select option { color: #1a1a1a; }
+    .wizard-hint {
+      font-size: 0.8rem;
+      color: #888;
+      text-align: center;
+      margin-top: 4px;
+      margin-bottom: 16px;
+    }
+    .wizard-next {
+      width: 100%;
+      max-width: 380px;
+      padding: 16px;
+      font-family: 'Poppins', sans-serif;
+      font-size: 1.05rem;
+      font-weight: 700;
+      border: none;
+      border-radius: 10px;
+      background: var(--yellow);
+      color: var(--navy);
+      cursor: pointer;
+      transition: filter 0.2s, transform 0.2s;
+      margin-top: auto;
+    }
+    .wizard-next:hover { filter: brightness(1.06); transform: translateY(-1px); }
+    .wizard-next:disabled { opacity: 0.5; cursor: not-allowed; transform: none; }
+    .wizard-progress {
+      display: flex;
+      gap: 6px;
+      margin-top: 24px;
+      width: 100%;
+      max-width: 380px;
+      align-self: center;
+    }
+    .wizard-progress-bar {
+      flex: 1;
+      height: 4px;
+      background: #e0e0e0;
+      border-radius: 2px;
+      overflow: hidden;
+    }
+    .wizard-progress-bar.active { background: var(--teal); }
+    .wizard-step { display: none; }
+    .wizard-step.active { display: flex; flex-direction: column; align-items: center; flex: 1; }
+    /* Step 5 contact fields */
+    .wizard-contact-row {
+      display: flex;
+      gap: 12px;
+      width: 100%;
+      max-width: 380px;
+      margin-bottom: 12px;
+    }
+    .wizard-contact-row .wizard-input { text-align: left; }
+    .wizard-contact-input {
+      width: 100%;
+      max-width: 380px;
+      padding: 16px 18px;
+      font-family: 'Poppins', sans-serif;
+      font-size: 1.05rem;
+      border: 2px solid #e0e0e0;
+      border-radius: 10px;
+      outline: none;
+      background: #f8f8f8;
+      color: #1a1a1a;
+      margin-bottom: 12px;
+      transition: border-color 0.2s;
+    }
+    .wizard-contact-input:focus { border-color: var(--teal); }
+    .wizard-privacy {
+      font-size: 0.78rem;
+      color: #888;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .wizard-privacy a { color: var(--teal); text-decoration: underline; }
+    .wizard-thankyou {
+      text-align: center;
+      padding: 40px 0;
+    }
+    .wizard-thankyou .ty-check {
+      width: 60px;
+      height: 60px;
+      background: rgba(82,186,199,0.15);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 16px;
+      font-size: 1.8rem;
+      color: var(--teal);
+    }
+    .wizard-thankyou h3 {
+      font-size: 1.3rem;
+      font-weight: 700;
+      margin-bottom: 8px;
+      color: var(--teal);
+    }
+    .wizard-thankyou p {
+      font-size: 0.92rem;
+      color: #666;
+    }
+
+    /* ─── TRUST BAR ─── */
+    .trust-bar {
+      background: rgba(82,186,199,0.06);
+      border-top: 1px solid rgba(82,186,199,0.12);
+      border-bottom: 1px solid rgba(82,186,199,0.12);
+      padding: 20px;
+    }
+    .trust-inner {
+      max-width: 1160px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 8px 0;
+    }
+    .trust-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 0 28px;
+      white-space: nowrap;
+    }
+    .trust-item + .trust-item {
+      border-left: 1px solid rgba(82,186,199,0.2);
+    }
+    .trust-icon { color: var(--teal); font-size: 1.25rem; flex-shrink: 0; }
+    .trust-text { display: flex; flex-direction: column; }
+    .trust-text strong { font-size: 0.88rem; font-weight: 700; line-height: 1.2; }
+    .trust-text span { font-size: 0.72rem; color: var(--text-muted); }
+
+    /* ─── SECTIONS ─── */
+    section { padding: 80px 20px; }
+    .section-inner { max-width: 1160px; margin: 0 auto; }
+    .section-label {
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      color: var(--teal);
+      margin-bottom: 12px;
+    }
+    .section-title {
+      font-size: clamp(1.6rem, 3vw, 2.2rem);
+      font-weight: 700;
+      letter-spacing: -0.3px;
+      margin-bottom: 16px;
+    }
+    .section-sub {
+      font-size: 1rem;
+      color: var(--text-muted);
+      max-width: 540px;
+      line-height: 1.7;
+    }
+    .section-header { margin-bottom: 52px; }
+
+    /* ─── VEHICLE CARDS ─── */
+    .vehicles { background: var(--navy); }
+    .vehicle-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+    }
+    .vehicle-card {
+      background: var(--card-bg);
+      border: 1px solid rgba(82,186,199,0.14);
+      border-radius: var(--radius);
+      overflow: hidden;
+      transition: transform var(--transition), box-shadow var(--transition), border-color var(--transition);
+    }
+    .vehicle-card:hover {
+      transform: translateY(-4px);
+      border-color: rgba(82,186,199,0.4);
+      box-shadow: 0 16px 48px rgba(0,0,0,0.35);
+    }
+    .vehicle-card.featured {
+      border-color: rgba(255,189,52,0.35);
+      position: relative;
+    }
+    .vehicle-badge {
+      position: absolute;
+      top: 16px;
+      right: 16px;
+      background: var(--yellow);
+      color: var(--navy);
+      font-size: 0.7rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      padding: 4px 10px;
+      border-radius: 100px;
+      z-index: 1;
+    }
+    .vehicle-img {
+      height: 190px;
+      background: linear-gradient(135deg, #1a2a38 0%, #0f1923 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      overflow: hidden;
+    }
+    .vehicle-img svg { opacity: 0.55; }
+    .vehicle-img img { width: 100%; height: 100%; object-fit: cover; }
+    .vehicle-body { padding: 24px; }
+    .vehicle-brand {
+      font-size: 0.72rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: var(--teal);
+      margin-bottom: 4px;
+    }
+    .vehicle-name {
+      font-size: 1.25rem;
+      font-weight: 700;
+      margin-bottom: 4px;
+    }
+    .vehicle-fbt {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      background: rgba(82,186,199,0.1);
+      border: 1px solid rgba(82,186,199,0.25);
+      border-radius: 100px;
+      font-size: 0.7rem;
+      font-weight: 600;
+      color: var(--teal);
+      padding: 3px 10px;
+      margin-bottom: 20px;
+    }
+    .vehicle-pricing {
+      background: rgba(255,255,255,0.04);
+      border-radius: 8px;
+      padding: 16px;
+      margin-bottom: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+    }
+    .vehicle-price-main { display: flex; flex-direction: column; }
+    .vehicle-price-main .label { font-size: 0.7rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 2px; }
+    .vehicle-price-main .price { font-size: 1.6rem; font-weight: 800; color: var(--yellow); line-height: 1; }
+    .vehicle-price-main .price-sub { font-size: 0.72rem; color: var(--text-muted); margin-top: 3px; }
+    .vehicle-saving { text-align: right; display: flex; flex-direction: column; align-items: flex-end; }
+    .vehicle-saving .save-label { font-size: 0.7rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 2px; }
+    .vehicle-saving .save-amount { font-size: 1.1rem; font-weight: 700; color: #6ee7a0; }
+    .vehicle-saving .save-period { font-size: 0.7rem; color: rgba(110,231,160,0.65); }
+    .vehicle-cta { width: 100%; }
+
+    /* ─── WHAT'S INCLUDED ─── */
+    .included { background: var(--navy2); }
+    .included-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+    }
+    .included-item {
+      text-align: center;
+      padding: 28px 20px;
+      background: rgba(255,255,255,0.03);
+      border: 1px solid rgba(82,186,199,0.1);
+      border-radius: var(--radius);
+      transition: border-color var(--transition);
+    }
+    .included-item:hover { border-color: rgba(255,189,52,0.3); }
+    .included-icon {
+      width: 52px;
+      height: 52px;
+      background: rgba(255,189,52,0.12);
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 16px;
+      font-size: 1.5rem;
+      color: var(--yellow);
+    }
+    .included-item h3 { font-size: 0.95rem; font-weight: 700; margin-bottom: 6px; }
+    .included-item p { font-size: 0.82rem; color: var(--text-muted); line-height: 1.6; }
+
+    /* ─── HOW IT WORKS ─── */
+    .hiw { background: var(--navy); }
+    .hiw-steps {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 32px;
+      position: relative;
+    }
+    .hiw-steps::before {
+      content: '';
+      position: absolute;
+      top: 32px;
+      left: calc(16.66% + 16px);
+      right: calc(16.66% + 16px);
+      height: 2px;
+      background: linear-gradient(90deg, var(--teal) 0%, rgba(82,186,199,0.3) 100%);
+      pointer-events: none;
+    }
+    .hiw-step { text-align: center; position: relative; }
+    .hiw-num {
+      width: 64px;
+      height: 64px;
+      border-radius: 50%;
+      background: var(--navy);
+      border: 2px solid var(--teal);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.3rem;
+      font-weight: 800;
+      color: var(--teal);
+      margin: 0 auto 20px;
+      position: relative;
+      z-index: 1;
+    }
+    .hiw-step h3 { font-size: 1.05rem; font-weight: 700; margin-bottom: 10px; }
+    .hiw-step p { font-size: 0.88rem; color: var(--text-muted); line-height: 1.65; }
+
+    /* ─── COMPARISON TABLE ─── */
+    .comparison { background: var(--navy2); }
+    .comparison-table {
+      max-width: 720px;
+      margin: 0 auto;
+      border-radius: var(--radius);
+      overflow: hidden;
+      border: 1px solid rgba(82,186,199,0.15);
+    }
+    .comparison-table table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    .comparison-table th,
+    .comparison-table td {
+      padding: 16px 24px;
+      text-align: left;
+      font-size: 0.9rem;
+    }
+    .comparison-table thead th {
+      background: rgba(82,186,199,0.1);
+      font-weight: 700;
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: var(--teal);
+    }
+    .comparison-table tbody tr {
+      border-top: 1px solid rgba(255,255,255,0.06);
+    }
+    .comparison-table tbody tr:nth-child(even) {
+      background: rgba(255,255,255,0.02);
+    }
+    .comparison-table td:first-child { color: var(--text-muted); }
+    .comparison-table .check { color: #6ee7a0; font-weight: 700; }
+    .comparison-table .cross { color: rgba(255,255,255,0.25); }
+
+    /* ─── TESTIMONIALS ─── */
+    .testimonials { background: var(--navy); }
+    .testi-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+    }
+    .testi-card {
+      background: var(--card-bg);
+      border: 1px solid rgba(82,186,199,0.12);
+      border-radius: var(--radius);
+      padding: 28px 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      transition: transform var(--transition);
+    }
+    .testi-card:hover { transform: translateY(-3px); }
+    .testi-stars { color: #FFD700; font-size: 1rem; letter-spacing: 2px; }
+    .testi-quote {
+      font-size: 0.9rem;
+      color: rgba(255,255,255,0.82);
+      line-height: 1.7;
+      flex: 1;
+    }
+    .testi-author {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding-top: 16px;
+      border-top: 1px solid rgba(255,255,255,0.07);
+    }
+    .testi-avatar {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--teal), #1a5f6e);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-size: 0.9rem;
+      color: var(--navy);
+      flex-shrink: 0;
+    }
+    .testi-name { font-size: 0.88rem; font-weight: 600; }
+    .testi-source {
+      font-size: 0.72rem;
+      color: var(--text-muted);
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+    .testi-source svg { color: #4285F4; }
+
+    /* ─── BOTTOM CTA ─── */
+    .bottom-cta {
+      background: linear-gradient(135deg, #0d2233 0%, #0f1923 100%);
+      text-align: center;
+      padding: 80px 20px;
+      position: relative;
+      overflow: hidden;
+    }
+    .bottom-cta::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse 800px 400px at 50% 50%, rgba(82,186,199,0.08) 0%, transparent 70%);
+      pointer-events: none;
+    }
+    .bottom-cta-inner {
+      max-width: 680px;
+      margin: 0 auto;
+      position: relative;
+    }
+    .bottom-cta h2 {
+      font-size: clamp(1.6rem, 3.5vw, 2.4rem);
+      font-weight: 800;
+      letter-spacing: -0.3px;
+      margin-bottom: 16px;
+    }
+    .bottom-cta h2 span { color: var(--yellow); }
+    .bottom-cta p {
+      font-size: 1rem;
+      color: var(--text-muted);
+      line-height: 1.7;
+      margin-bottom: 40px;
+    }
+    .cta-actions {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .cta-phone-link {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: var(--white);
+      transition: color var(--transition);
+    }
+    .cta-phone-link:hover { color: var(--teal); }
+    .cta-phone-link svg { color: var(--teal); }
+    .cta-divider { width: 1px; height: 32px; background: rgba(255,255,255,0.15); }
+
+    /* ─── FOOTER ─── */
+    footer {
+      background: #080f15;
+      padding: 40px 20px;
+      border-top: 1px solid rgba(82,186,199,0.1);
+    }
+    .footer-inner { max-width: 1160px; margin: 0 auto; }
+    .footer-top {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 32px;
+      flex-wrap: wrap;
+      margin-bottom: 32px;
+    }
+    .footer-brand .footer-logo svg { height: 32px; width: auto; }
+    .footer-tagline {
+      font-size: 0.82rem;
+      color: var(--text-muted);
+      margin-top: 8px;
+    }
+    .footer-contact {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+    .footer-contact a {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      transition: color var(--transition);
+    }
+    .footer-contact a:hover { color: var(--teal); }
+    .footer-contact svg { color: var(--teal); flex-shrink: 0; }
+    .footer-divider {
+      border: none;
+      border-top: 1px solid rgba(255,255,255,0.06);
+      margin-bottom: 20px;
+    }
+    .footer-disclaimer {
+      font-size: 0.72rem;
+      color: rgba(255,255,255,0.35);
+      line-height: 1.65;
+      max-width: 900px;
+    }
+    .footer-copy {
+      font-size: 0.72rem;
+      color: rgba(255,255,255,0.25);
+      margin-top: 12px;
+    }
+
+    /* ─── STICKY MOBILE CTA ─── */
+    .mobile-sticky-cta {
+      display: none;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: var(--navy);
+      border-top: 1px solid rgba(82,186,199,0.15);
+      padding: 12px 20px;
+      z-index: 999;
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+    }
+    .mobile-sticky-cta .btn {
+      width: 100%;
+      text-align: center;
+      padding: 14px;
+      font-size: 1rem;
+      font-weight: 700;
+    }
+    @media (max-width: 900px) {
+      .mobile-sticky-cta { display: block; }
+      body { padding-bottom: 72px; }
+    }
+
+    /* ─── MID-PAGE CTA ─── */
+    .mid-cta {
+      background: linear-gradient(135deg, var(--teal), #3a9ba8);
+      padding: 48px 24px;
+      text-align: center;
+    }
+    .mid-cta-inner {
+      max-width: 640px;
+      margin: 0 auto;
+    }
+    .mid-cta h2 {
+      font-size: 1.5rem;
+      font-weight: 800;
+      color: var(--white);
+      margin-bottom: 8px;
+    }
+    .mid-cta p {
+      font-size: 0.95rem;
+      color: rgba(255,255,255,0.85);
+      margin-bottom: 20px;
+    }
+    .mid-cta .btn { font-size: 1rem; padding: 14px 32px; }
+
+    /* ─── URGENCY BADGE ─── */
+    .urgency-badge {
+      display: inline-block;
+      background: rgba(255,189,52,0.15);
+      border: 1px solid rgba(255,189,52,0.4);
+      color: var(--yellow);
+      font-size: 0.82rem;
+      font-weight: 600;
+      padding: 6px 14px;
+      border-radius: 20px;
+      margin-top: 16px;
+      animation: pulse-glow 2s ease-in-out infinite;
+    }
+    @keyframes pulse-glow {
+      0%, 100% { box-shadow: 0 0 0 0 rgba(255,189,52,0.3); }
+      50% { box-shadow: 0 0 12px 4px rgba(255,189,52,0.15); }
+    }
+
+    /* ─── MOBILE ─── */
+    @media (max-width: 900px) {
+      .hero-inner { grid-template-columns: 1fr; gap: 48px; }
+      .hiw-steps { grid-template-columns: 1fr; }
+      .hiw-steps::before { display: none; }
+      .vehicle-grid { grid-template-columns: 1fr; max-width: 420px; margin: 0 auto; }
+      .included-grid { grid-template-columns: 1fr 1fr; }
+      .testi-grid { grid-template-columns: 1fr; max-width: 480px; margin: 0 auto; }
+      .footer-top { flex-direction: column; }
+    }
+    @media (max-width: 640px) {
+      .header-phone { display: none; }
+      .trust-inner { flex-direction: column; gap: 0; }
+      .trust-item + .trust-item { border-left: none; border-top: 1px solid rgba(82,186,199,0.12); }
+      .trust-item { padding: 14px 0; }
+      .form-card { padding: 28px 20px; }
+      section { padding: 60px 20px; }
+      .hero-price-strip { flex-direction: column; gap: 12px; }
+      .included-grid { grid-template-columns: 1fr; }
+      .comparison-table th, .comparison-table td { padding: 12px 14px; font-size: 0.82rem; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ─── STICKY HEADER ─── -->
+<header class="header">
+  <div class="header-inner">
+    <a href="#home" class="header-logo">
+      <svg viewBox="0 0 1261 344" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <!-- Icon mark (yellow) -->
+        <path d="M49.9463 71.5244C50.6779 71.5244 51.4508 71.6929 52.4307 71.9824C53.0972 72.1794 53.9179 72.4506 54.8086 72.7129V106.827C54.4006 107.059 54.0593 107.266 53.8359 107.392C53.5077 107.576 53.3887 107.61 53.3711 107.615C40.1533 107.581 27.0112 107.754 13.8564 107.236C8.54432 107.024 5.02552 103.513 3.50684 98L3.50586 97.9971C1.78113 91.7886 1.34968 85.7 3.57422 79.6943L3.5752 79.6934C5.16701 75.3827 7.96369 72.5247 12.167 72.3193L12.166 72.3184C24.737 71.7657 37.3127 71.6273 49.9463 71.5234V71.5244Z" fill="#FFBD34" stroke="#FFBD34" stroke-width="2.77642"/>
+        <path d="M19.0415 316.491C18.9723 273.739 19.5956 230.88 18.729 188.081V188.08C18.3578 169.93 25.7497 156.516 38.2603 144.534L38.2798 144.515C38.9153 143.882 39.6233 143.304 40.395 142.676L40.4185 142.656C50.8985 133.727 58.7535 123.419 63.4565 109.863L63.4575 109.861C72.8688 82.6438 83.7349 55.9048 94.5151 29.1211L94.5142 29.1201C96.9105 23.2067 100.567 17.4712 104.776 12.6045L104.778 12.6025C110.499 5.95666 118.402 2.90625 127.427 2.90625C143.215 2.90625 158.998 3.00979 174.769 2.90625L174.768 2.90527C216.139 2.66377 278.888 2.3203 320.295 2.11328C323.967 2.11336 327.681 2.31315 331.17 3.04297V3.06543L332.24 3.31738C336.419 4.30528 338.393 7.44574 337.941 10.8223L337.94 10.8232C337.661 12.9252 336.903 14.4748 335.794 15.5684C334.682 16.6651 333.109 17.4092 331.014 17.7051L331.003 17.707C328.801 18.0343 326.514 18.0371 324.139 18.0371C267.379 18.0371 189.245 18.1054 132.456 17.8984C126.869 17.8804 122.337 19.2944 118.659 21.9424C115.226 24.4137 112.627 27.8952 110.591 32.0771L110.192 32.9229C106.811 40.2806 103.948 47.893 100.981 55.3467L100.98 55.3486C93.8084 73.4253 86.6708 91.4683 79.5679 109.581C79.2029 110.49 78.9926 111.438 78.7993 112.458C78.6005 113.507 78.4212 114.622 78.1138 116.051L77.7837 117.584L79.3452 117.726C83.0207 118.058 86.3552 118.594 89.5884 118.594H89.5981C113.957 118.421 149.266 118.197 178.485 118.016C193.094 117.925 206.181 117.845 215.616 117.788C220.333 117.76 224.138 117.737 226.763 117.722C226.829 117.721 226.895 117.72 226.959 117.72L148.88 182.711C148.82 182.702 148.755 182.693 148.686 182.683C148.157 182.604 147.379 182.488 146.382 182.341C144.389 182.046 141.524 181.622 138.034 181.107C131.053 180.079 121.572 178.688 111.574 177.238C91.5917 174.342 69.5014 171.206 61.1919 170.271H61.1909C53.6518 169.427 47.8112 172.147 43.7681 175.924C39.7711 179.658 37.4798 184.471 36.9995 187.99L36.9985 187.993C36.3506 192.823 37.6231 199.911 39.6919 206.517C41.7633 213.131 44.741 219.604 47.7437 223.162V223.161C50.1274 225.999 53.5011 227.885 57.1577 229.151C60.8216 230.42 64.8623 231.097 68.689 231.459C72.5214 231.821 76.1848 231.87 79.103 231.859C79.833 231.857 80.5179 231.851 81.146 231.845C81.7757 231.839 82.3453 231.833 82.853 231.831C83.9025 231.828 84.5847 231.843 84.939 231.889C86.6568 232.117 90.5198 232.259 95.5688 232.351C100.661 232.443 107.056 232.485 113.902 232.5C127.375 232.53 142.642 232.455 153.166 232.453C153.253 232.524 153.354 232.606 153.469 232.699C153.917 233.062 154.573 233.594 155.409 234.271C157.08 235.627 159.468 237.565 162.334 239.896C168.068 244.557 175.717 250.787 183.379 257.062C191.043 263.339 198.716 269.659 204.5 274.501C207.394 276.923 209.809 278.971 211.511 280.456C212.364 281.2 213.028 281.794 213.481 282.22C213.683 282.41 213.832 282.557 213.932 282.661C214.601 285.12 214.301 287.408 213.304 289.12C212.289 290.864 210.493 292.124 207.958 292.375H207.953C204.338 292.745 200.666 292.644 196.871 292.644H196.872C175.976 292.575 130.824 292.506 109.928 292.506C106.784 292.506 103.505 293.154 99.9019 293.549L98.7778 293.673L98.6714 294.798C98.3376 298.321 97.9039 300.977 97.8677 303.529C97.7268 311.107 98.0072 318.397 97.6265 325.842V325.846C97.3954 330.645 95.954 334.251 93.5562 336.677C91.1657 339.095 87.6628 340.506 82.9761 340.604H82.9751C67.2328 340.948 51.4844 340.878 35.73 340.603C27.5762 340.442 21.7239 335.376 19.981 327.31L19.98 327.305L19.8433 326.651C19.1941 323.37 19.0415 319.924 19.0415 316.493V316.491Z" fill="#FFBD34" stroke="#FFBD34" stroke-width="2.77642"/>
+        <path d="M164.476 203.404L333.837 67.3594" stroke="#FFBD34" stroke-width="14.2668" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M164.476 203.401L333.837 203.401" stroke="#FFBD34" stroke-width="14.2668" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M164.476 203.401L328.285 336.67" stroke="#FFBD34" stroke-width="14.2668" stroke-linecap="round" stroke-linejoin="round"/>
+        <!-- Text "BRIGHT" (white) -->
+        <path d="M377.015 4.01562H430.531C459.885 4.01562 473.493 6.83241 486.151 20.9156C493.888 28.8905 496.467 39.4444 496.467 49.5572C496.467 62.9278 490.359 76.5359 476.276 84.5447C504.205 94.4199 504.917 117.632 504.917 124.928C504.917 138.773 499.522 154.045 488.968 162.732C473.018 176.103 461.514 177.765 432.16 177.765H377.015V4.08356V4.01562ZM419.502 69.9523H435.214C441.322 69.9523 453.98 69.9524 453.98 56.1067C453.98 42.2611 442.001 42.9737 435.214 42.9737H419.502V69.9523ZM419.502 138.74H440.406C446.039 138.74 462.464 138.74 462.464 122.077C462.464 107.044 447.431 107.044 440.406 107.044H419.502V138.74Z" fill="white"/>
+        <path d="M533.593 4.01562H588.534C619.042 4.01562 630.784 7.78261 642.051 16.4701C656.372 27.7367 663.396 46.0618 663.396 63.8779C663.396 83.832 653.08 113.186 620.196 118.582L667.367 177.731H616.667L576.522 121.636H576.046V177.731H533.559V4.04959L533.593 4.01562ZM576.08 91.3318H591.793C617.855 91.3318 620.909 74.907 620.909 66.457C620.909 50.7449 609.405 42.9737 592.268 42.9737H576.08V91.3318Z" fill="white"/>
+        <path d="M691.563 4.01562H735.917V177.697H691.563V4.01562Z" fill="white"/>
+        <path d="M949.302 78.878C949.54 81.9321 949.54 84.5113 949.54 88.0406C949.54 146.24 904.949 181.228 856.828 181.228C804.262 181.228 764.592 140.165 764.592 90.1446C764.592 40.1236 806.366 0.724609 857.541 0.724609C899.078 0.724609 934.778 28.6535 944.382 62.2157H894.633C887.812 49.9989 875.154 39.6825 856.387 39.6825C834.567 39.6825 808.98 55.8697 808.98 90.1446C808.98 126.523 834.804 142.27 856.624 142.27C878.445 142.27 893.478 131.24 898.161 114.341H846.275V78.9119H949.336L949.302 78.878Z" fill="white"/>
+        <path d="M977.231 4.01562H1021.59V69.2737H1078.39V4.01562H1122.75V177.697H1078.39V108.232H1021.59V177.697H977.231V4.01562Z" fill="white"/>
+        <path d="M1179.83 42.9737H1145.55V4.01562H1258.22V42.9737H1224.18V177.697H1179.83V42.9737Z" fill="white"/>
+        <!-- Text "LEASING" (white) -->
+        <path d="M382.783 340.349V217.062H395.169V329.184H446.107V340.349H382.783Z" fill="white"/>
+        <path d="M494.397 340.349V217.062H561.929V228.226H506.75V272.58H560.198V283.745H506.75V329.218H561.929V340.383H494.397V340.349Z" fill="white"/>
+        <path d="M663.769 217.062H677.275L730.248 340.349H716.708L699.164 298.676H641.269L623.827 340.349H610.795L663.769 217.062ZM645.987 287.546H694.718L670.149 229.753H670.25L645.953 287.546H645.987Z" fill="white"/>
+        <path d="M832.7 248.453C831.954 241.564 829.544 236.1 825.539 232.062C821.535 228.024 816.445 225.988 810.302 225.988C804.16 225.988 798.697 227.99 794.353 231.994C790.009 235.998 787.837 240.919 787.837 246.722C787.837 252.525 789.738 256.903 793.538 260.296C797.339 263.724 803.787 266.642 812.882 269.086C825.03 272.411 833.854 277.027 839.385 282.999C844.883 288.972 847.631 296.845 847.631 306.686C847.631 316.527 844 325.113 836.738 332.036C829.476 338.959 820.551 342.42 810.031 342.42C798.866 342.42 789.771 339.027 782.848 332.24C775.891 325.453 772.431 316.629 772.431 305.804H784.647C785.563 314.152 788.176 320.498 792.52 324.842C796.83 329.185 802.701 331.357 810.065 331.357C817.429 331.357 823.266 329.05 828.22 324.401C833.175 319.751 835.618 314.118 835.618 307.433C835.618 300.747 833.447 294.944 829.137 290.838C824.827 286.766 817.531 283.339 807.215 280.488C796.253 277.502 788.244 273.395 783.256 268.101C778.301 262.909 775.824 256.021 775.824 247.435C775.824 238.306 779.15 230.603 785.835 224.325C792.52 218.047 800.699 214.891 810.336 214.891C819.974 214.891 828.356 218.081 834.906 224.46C841.489 230.84 844.747 238.815 844.747 248.419H832.7V248.453Z" fill="white"/>
+        <path d="M901.182 217.062H913.534V340.349H901.182V217.062Z" fill="white"/>
+        <path d="M987.718 340.349H975.365V217.062H992.197L1061.12 318.97V217.062H1073.47V340.349H1061.02L987.684 232.095V340.349H987.718Z" fill="white"/>
+        <path d="M1196.15 342.454C1177.48 342.454 1161.7 336.311 1148.84 323.993C1135.95 311.674 1129.53 296.607 1129.53 278.757C1129.53 260.907 1136.05 245.805 1149.05 233.487C1162.08 221.134 1177.99 214.958 1196.83 214.958C1208.91 214.958 1220.38 218.216 1231.2 224.765C1242.03 231.315 1249.73 239.629 1254.28 249.708H1239.89C1235.75 242.751 1229.74 237.084 1221.87 232.672C1213.96 228.261 1205.85 226.055 1197.51 226.055C1182 226.055 1168.86 231.145 1158.17 241.36C1147.45 251.574 1142.09 264.029 1142.09 278.791C1142.09 293.553 1147.38 306.007 1158 316.188C1168.63 326.368 1181.59 331.459 1196.96 331.459C1211.39 331.459 1223.57 326.334 1233.51 316.12C1239.65 309.774 1243.86 302.647 1246.2 294.74H1177.45V283.677H1260.76C1259.74 299.457 1253.53 312.93 1242.13 324.027C1229.64 336.345 1214.37 342.488 1196.25 342.488L1196.15 342.454Z" fill="white"/>
+      </svg>
+    </a>
+    <div class="header-right">
+      <a class="header-phone" href="tel:1300988938">
+        <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+        1300 988 938
+      </a>
+      <a href="#quote" class="btn btn-yellow">Get a Quote</a>
+    </div>
+  </div>
+</header>
+
+<!-- ─── HERO — TAX SAVER ANGLE ─── -->
+<section class="hero" id="home">
+  <div class="hero-inner">
+    <div class="hero-content">
+      <div class="hero-badge"><span></span> Maximise Your Take-Home Pay</div>
+      <h1>Keep <span class="price-highlight">$4,000+</span> more<br>per year.<br><em>It's your money.</em></h1>
+      <p class="hero-sub">Pay for your car with pre-tax dollars. No FBT on EVs. No GST on the purchase. No deposit.</p>
+
+      <div class="hero-price-strip">
+        <div class="price-card">
+          <div class="model">On $85k salary</div>
+          <div class="amount">$4,200+</div>
+          <div class="period">saved per year</div>
+        </div>
+        <div class="price-card">
+          <div class="model">On $120k salary</div>
+          <div class="amount">$5,800+</div>
+          <div class="period">saved per year</div>
+        </div>
+        <div class="price-card">
+          <div class="model">On $180k salary</div>
+          <div class="amount">$8,400+</div>
+          <div class="period">saved per year</div>
+        </div>
+      </div>
+
+      <div class="hero-cta-group">
+        <a href="#quote" class="btn btn-yellow" style="padding: 14px 28px;">See My Savings →</a>
+        <a href="tel:1300988938" class="btn btn-outline">Call 1300 988 938</a>
+      </div>
+      <div class="urgency-badge">FY26 tax benefits — lock in your rate before June 30</div>
+    </div>
+
+    <div class="wizard-card" id="quote">
+      <!-- Step 1: Car price -->
+      <div class="wizard-step active" data-step="1">
+        <div class="wizard-header"></div>
+        <h2 class="wizard-question">How much is the car you'd like to lease?</h2>
+        <div class="wizard-body">
+          <div class="wizard-input-wrap">
+            <span class="dollar-prefix">$</span>
+            <input type="text" class="wizard-input has-prefix" id="wiz-car-price" placeholder="50,000" inputmode="numeric" />
+          </div>
+          <p class="wizard-hint">Minimum $15,000</p>
+          <button class="wizard-next" onclick="wizardNext(1)">Next</button>
+        </div>
+        <div class="wizard-progress">
+          <div class="wizard-progress-bar active"></div>
+          <div class="wizard-progress-bar"></div>
+          <div class="wizard-progress-bar"></div>
+          <div class="wizard-progress-bar"></div>
+          <div class="wizard-progress-bar"></div>
+        </div>
+        <span class="wizard-step-count">1/5</span>
+      </div>
+
+      <!-- Step 2: Income -->
+      <div class="wizard-step" data-step="2">
+        <div class="wizard-header">
+          <button class="wizard-back" onclick="wizardBack(2)">&larr;</button>
+        </div>
+        <h2 class="wizard-question">What's your yearly income before super?</h2>
+        <div class="wizard-body">
+          <div class="wizard-input-wrap">
+            <span class="dollar-prefix">$</span>
+            <input type="text" class="wizard-input has-prefix" id="wiz-income" placeholder="85,000" inputmode="numeric" />
+          </div>
+          <p class="wizard-hint">Gross annual salary</p>
+          <button class="wizard-next" onclick="wizardNext(2)">Next</button>
+        </div>
+        <div class="wizard-progress">
+          <div class="wizard-progress-bar active"></div>
+          <div class="wizard-progress-bar active"></div>
+          <div class="wizard-progress-bar"></div>
+          <div class="wizard-progress-bar"></div>
+          <div class="wizard-progress-bar"></div>
+        </div>
+        <span class="wizard-step-count">2/5</span>
+      </div>
+
+      <!-- Step 3: State -->
+      <div class="wizard-step" data-step="3">
+        <div class="wizard-header">
+          <button class="wizard-back" onclick="wizardBack(3)">&larr;</button>
+        </div>
+        <h2 class="wizard-question">Which state are you based in?</h2>
+        <div class="wizard-body">
+          <select class="wizard-select" id="wiz-state">
+            <option value="" disabled selected>Select your state...</option>
+            <option value="NSW">New South Wales</option>
+            <option value="VIC">Victoria</option>
+            <option value="QLD">Queensland</option>
+            <option value="SA">South Australia</option>
+            <option value="WA">Western Australia</option>
+            <option value="ACT">Australian Capital Territory</option>
+            <option value="TAS">Tasmania</option>
+            <option value="NT">Northern Territory</option>
+          </select>
+          <button class="wizard-next" onclick="wizardNext(3)" style="margin-top: auto;">Next</button>
+        </div>
+        <div class="wizard-progress">
+          <div class="wizard-progress-bar active"></div>
+          <div class="wizard-progress-bar active"></div>
+          <div class="wizard-progress-bar active"></div>
+          <div class="wizard-progress-bar"></div>
+          <div class="wizard-progress-bar"></div>
+        </div>
+        <span class="wizard-step-count">3/5</span>
+      </div>
+
+      <!-- Step 4: Employer -->
+      <div class="wizard-step" data-step="4">
+        <div class="wizard-header">
+          <button class="wizard-back" onclick="wizardBack(4)">&larr;</button>
+        </div>
+        <h2 class="wizard-question">Where do you currently work?</h2>
+        <div class="wizard-body">
+          <input type="text" class="wizard-input" id="wiz-employer" placeholder="e.g. Woolworths, BHP, NSW Health" style="text-align: left;" />
+          <p class="wizard-hint">We won't contact them — it's just to give an accurate price.</p>
+          <button class="wizard-next" onclick="wizardNext(4)">Next</button>
+        </div>
+        <div class="wizard-progress">
+          <div class="wizard-progress-bar active"></div>
+          <div class="wizard-progress-bar active"></div>
+          <div class="wizard-progress-bar active"></div>
+          <div class="wizard-progress-bar active"></div>
+          <div class="wizard-progress-bar"></div>
+        </div>
+        <span class="wizard-step-count">4/5</span>
+      </div>
+
+      <!-- Step 5: Contact details -->
+      <div class="wizard-step" data-step="5">
+        <div class="wizard-header">
+          <button class="wizard-back" onclick="wizardBack(5)">&larr;</button>
+        </div>
+        <h2 class="wizard-question">Almost there! How can we reach you?</h2>
+        <div class="wizard-body">
+          <div class="wizard-contact-row">
+            <input type="text" class="wizard-input" id="wiz-fname" placeholder="First name" autocomplete="given-name" style="text-align: left;" />
+            <input type="text" class="wizard-input" id="wiz-lname" placeholder="Last name" autocomplete="family-name" style="text-align: left;" />
+          </div>
+          <input type="tel" class="wizard-contact-input" id="wiz-phone" placeholder="+61  0412 345 678" autocomplete="tel" />
+          <input type="email" class="wizard-contact-input" id="wiz-email" placeholder="you@example.com" autocomplete="email" />
+          <p class="wizard-privacy">By continuing, you agree to our <a href="#">Privacy Policy</a>.</p>
+          <button class="wizard-next" onclick="wizardSubmit()">Get My Quote</button>
+        </div>
+        <div class="wizard-progress">
+          <div class="wizard-progress-bar active"></div>
+          <div class="wizard-progress-bar active"></div>
+          <div class="wizard-progress-bar active"></div>
+          <div class="wizard-progress-bar active"></div>
+          <div class="wizard-progress-bar active"></div>
+        </div>
+        <span class="wizard-step-count">5/5</span>
+      </div>
+
+      <!-- Thank you -->
+      <div class="wizard-step" data-step="done" id="wizardThankyou">
+        <div class="wizard-thankyou">
+          <div class="ty-check">&#10003;</div>
+          <h3>You're on the list!</h3>
+          <p>A Bright Leasing specialist will be in touch within 1 business day to walk you through your personalised price.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── TRUST BAR ─── -->
+<div class="trust-bar">
+  <div class="trust-inner">
+    <div class="trust-item">
+      <div class="trust-icon">
+        <svg width="20" height="20" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+      </div>
+      <div class="trust-text">
+        <strong>5.0 Google Rating</strong>
+        <span>Verified reviews</span>
+      </div>
+    </div>
+    <div class="trust-item">
+      <div class="trust-icon">
+        <svg width="20" height="20" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clip-rule="evenodd"/></svg>
+      </div>
+      <div class="trust-text">
+        <strong>FBT-Exempt EVs</strong>
+        <span>Zero fringe benefits tax</span>
+      </div>
+    </div>
+    <div class="trust-item">
+      <div class="trust-icon">
+        <svg width="20" height="20" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M4 4a2 2 0 00-2 2v4a2 2 0 002 2V6h10a2 2 0 00-2-2H4zm2 6a2 2 0 012-2h8a2 2 0 012 2v4a2 2 0 01-2 2H8a2 2 0 01-2-2v-4zm6 4a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"/></svg>
+      </div>
+      <div class="trust-text">
+        <strong>$0 Upfront</strong>
+        <span>No deposit required</span>
+      </div>
+    </div>
+    <div class="trust-item">
+      <div class="trust-icon">
+        <svg width="20" height="20" fill="currentColor" viewBox="0 0 20 20"><path d="M10.394 2.08a1 1 0 00-.788 0l-7 3a1 1 0 000 1.84L5.25 8.051a.999.999 0 01.356-.257l4-1.714a1 1 0 11.788 1.838L7.667 9.088l1.94.831a1 1 0 00.787 0l7-3a1 1 0 000-1.838l-7-3zM3.31 9.397L5 10.12v4.102a8.969 8.969 0 00-1.05-.174 1 1 0 01-.89-.89 11.115 11.115 0 01.25-3.762zM9.3 16.573A9.026 9.026 0 007 14.935v-3.547l1.606.688a3 3 0 002.788 0l1.606-.688v3.547a9.026 9.026 0 00-2.3 1.638 1 1 0 01-1.4 0z"/></svg>
+      </div>
+      <div class="trust-text">
+        <strong>Dedicated Consultant</strong>
+        <span>Direct line access</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ─── VEHICLE CARDS ─── -->
+<section class="vehicles" id="vehicles">
+  <div class="section-inner">
+    <div class="section-header">
+      <div class="section-label">Real savings, real cars</div>
+      <h2 class="section-title">See how much you'd save on these popular EVs</h2>
+      <p class="section-sub">Annual tax savings based on a typical $100k salary. Your savings may be even higher.</p>
+    </div>
+    <div class="vehicle-grid">
+
+      <!-- BYD Atto 1 -->
+      <div class="vehicle-card featured">
+        <div class="vehicle-badge">Biggest Tax Saving</div>
+        <div class="vehicle-img">
+          <img src="images/byd-atto1.jpg" alt="BYD Atto 1" />
+        </div>
+        <div class="vehicle-body">
+          <div class="vehicle-brand">BYD</div>
+          <div class="vehicle-name">Atto 1</div>
+          <div class="vehicle-fbt">FBT-Exempt</div>
+          <div class="vehicle-pricing">
+            <div class="vehicle-price-main">
+              <span class="label">You save</span>
+              <span class="price">$5,564</span>
+              <span class="price-sub">per year in tax</span>
+            </div>
+            <div class="vehicle-saving">
+              <span class="save-label">Net cost</span>
+              <span class="save-amount">$156/wk</span>
+              <span class="save-period">after tax savings</span>
+            </div>
+          </div>
+          <a href="#quote" class="btn btn-yellow vehicle-cta">See My Savings →</a>
+        </div>
+      </div>
+
+      <!-- BYD Sealion 7 -->
+      <div class="vehicle-card">
+        <div class="vehicle-img">
+          <img src="images/byd-sealion7.jpg" alt="BYD Sealion 7" />
+        </div>
+        <div class="vehicle-body">
+          <div class="vehicle-brand">BYD</div>
+          <div class="vehicle-name">Sealion 7</div>
+          <div class="vehicle-fbt">FBT-Exempt</div>
+          <div class="vehicle-pricing">
+            <div class="vehicle-price-main">
+              <span class="label">You save</span>
+              <span class="price">$8,684</span>
+              <span class="price-sub">per year in tax</span>
+            </div>
+            <div class="vehicle-saving">
+              <span class="save-label">Net cost</span>
+              <span class="save-amount">$233/wk</span>
+              <span class="save-period">after tax savings</span>
+            </div>
+          </div>
+          <a href="#quote" class="btn btn-yellow vehicle-cta">See My Savings →</a>
+        </div>
+      </div>
+
+      <!-- Tesla Model Y -->
+      <div class="vehicle-card">
+        <div class="vehicle-badge" style="background: var(--teal); color: var(--navy);">Most Popular</div>
+        <div class="vehicle-img">
+          <img src="images/tesla-model-y.jpg" alt="Tesla Model Y" />
+        </div>
+        <div class="vehicle-body">
+          <div class="vehicle-brand">Tesla</div>
+          <div class="vehicle-name">Model Y</div>
+          <div class="vehicle-fbt">FBT-Exempt</div>
+          <div class="vehicle-pricing">
+            <div class="vehicle-price-main">
+              <span class="label">You save</span>
+              <span class="price">$11,440</span>
+              <span class="price-sub">per year in tax</span>
+            </div>
+            <div class="vehicle-saving">
+              <span class="save-label">Net cost</span>
+              <span class="save-amount">$299/wk</span>
+              <span class="save-period">after tax savings</span>
+            </div>
+          </div>
+          <a href="#quote" class="btn btn-yellow vehicle-cta">See My Savings →</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ─── WHAT'S INCLUDED ─── -->
+<section class="included" id="included">
+  <div class="section-inner">
+    <div class="section-header">
+      <div class="section-label">All tax-deductible</div>
+      <h2 class="section-title">Every cost is covered — and every dollar reduces your tax</h2>
+      <p class="section-sub">No surprise bills. No separate accounts. Every cost bundled into one pre-tax deduction.</p>
+    </div>
+    <div class="included-grid">
+      <div class="included-item">
+        <div class="included-icon">
+          <svg width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+        </div>
+        <h3>Comprehensive Insurance</h3>
+        <p>Full coverage included. No need to shop around or pay separately.</p>
+      </div>
+      <div class="included-item">
+        <div class="included-icon">
+          <svg width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"/></svg>
+        </div>
+        <h3>Registration & CTP</h3>
+        <p>Rego and compulsory third party insurance handled automatically.</p>
+      </div>
+      <div class="included-item">
+        <div class="included-icon">
+          <svg width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.066 2.573c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.573 1.066c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.066-2.573c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"/><path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+        </div>
+        <h3>Scheduled Servicing</h3>
+        <p>All manufacturer-required servicing covered for the life of the lease.</p>
+      </div>
+      <div class="included-item">
+        <div class="included-icon">
+          <svg width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+        </div>
+        <h3>EV Charging</h3>
+        <p>Charging costs built into your package. Drive electric for less.</p>
+      </div>
+      <div class="included-item">
+        <div class="included-icon">
+          <svg width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6l4 2"/></svg>
+        </div>
+        <h3>Roadside Assistance</h3>
+        <p>24/7 roadside assistance for total peace of mind.</p>
+      </div>
+      <div class="included-item">
+        <div class="included-icon">
+          <svg width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+        </div>
+        <h3>Tyres & Maintenance</h3>
+        <p>Replacement tyres and routine maintenance all included.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── NOVATED VS BUYING COMPARISON ─── -->
+<section class="comparison" id="compare">
+  <div class="section-inner">
+    <div class="section-header" style="text-align: center; max-width: 600px; margin: 0 auto 52px;">
+      <div class="section-label">The tax advantage is massive</div>
+      <h2 class="section-title">Where your tax savings come from</h2>
+      <p class="section-sub" style="margin: 0 auto;">Every line item below is money you keep instead of giving to the ATO.</p>
+    </div>
+    <div class="comparison-table">
+      <table>
+        <thead>
+          <tr>
+            <th></th>
+            <th>Novated Lease</th>
+            <th>Buying Outright</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Paid from pre-tax income</td>
+            <td class="check">&#10003; Yes — every pay cycle</td>
+            <td class="cross">&#10007; After-tax dollars</td>
+          </tr>
+          <tr>
+            <td>GST on purchase price</td>
+            <td class="check">&#10003; Saved (up to $8,300)</td>
+            <td class="cross">&#10007; You pay the full GST</td>
+          </tr>
+          <tr>
+            <td>Fringe Benefits Tax</td>
+            <td class="check">&#10003; $0 FBT on EVs</td>
+            <td class="cross">&#10007; N/A</td>
+          </tr>
+          <tr>
+            <td>Income tax reduction</td>
+            <td class="check">&#10003; Lower taxable income</td>
+            <td class="cross">&#10007; No reduction</td>
+          </tr>
+          <tr>
+            <td>Running costs (insurance, rego, servicing)</td>
+            <td class="check">&#10003; Pre-tax &amp; bundled</td>
+            <td class="cross">&#10007; After-tax &amp; separate</td>
+          </tr>
+          <tr>
+            <td>Upfront cost</td>
+            <td class="check">&#10003; $0 deposit</td>
+            <td class="cross">&#10007; $30,000+</td>
+          </tr>
+          <tr>
+            <td>Typical annual tax saving</td>
+            <td class="check">&#10003; $4,000 – $11,000+</td>
+            <td class="cross">&#10007; $0</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- ─── HOW IT WORKS ─── -->
+<section class="hiw" id="how">
+  <div class="section-inner">
+    <div class="section-header">
+      <div class="section-label">Simple process</div>
+      <h2 class="section-title">Three steps to start saving</h2>
+      <p class="section-sub">We handle the hard stuff. You keep the tax savings.</p>
+    </div>
+    <div class="hiw-steps">
+      <div class="hiw-step">
+        <div class="hiw-num">1</div>
+        <h3>See Your Savings</h3>
+        <p>Tell us the car you want and your salary. We'll show you exactly how much you'll save in tax — before you commit.</p>
+      </div>
+      <div class="hiw-step">
+        <div class="hiw-num">2</div>
+        <h3>We Set It Up</h3>
+        <p>Our team liaises with your employer's payroll. Salary packaging is arranged so deductions start from your pre-tax pay.</p>
+      </div>
+      <div class="hiw-step">
+        <div class="hiw-num">3</div>
+        <h3>Watch Your Tax Drop</h3>
+        <p>Every pay cycle, your taxable income is lower. You keep more in your pocket — automatically, every fortnight.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── MID-PAGE CTA ─── -->
+<section class="mid-cta">
+  <div class="mid-cta-inner">
+    <h2>How much could you save?</h2>
+    <p>Get your personalised tax savings breakdown in 60 seconds — no obligation.</p>
+    <a href="#quote" class="btn btn-yellow">Calculate My Savings →</a>
+  </div>
+</section>
+
+<!-- ─── TESTIMONIALS ─── -->
+<section class="testimonials" id="reviews">
+  <div class="section-inner">
+    <div class="section-header">
+      <div class="section-label">Customer reviews</div>
+      <h2 class="section-title">Don't just take our word for it</h2>
+      <p class="section-sub">Real customers. Real savings. Real Google reviews.</p>
+    </div>
+    <div class="testi-grid">
+
+      <div class="testi-card">
+        <div class="testi-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p class="testi-quote">"I honestly had no idea how much I was leaving on the table by just buying a car outright. The Bright Leasing team walked me through everything — I'm now driving a Tesla Model Y and saving over $900 a month compared to what I was paying before."</p>
+        <div class="testi-author">
+          <div class="testi-avatar">MJ</div>
+          <div>
+            <div class="testi-name">Mark J.</div>
+            <div class="testi-source">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg>
+              Google Review
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testi-card">
+        <div class="testi-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p class="testi-quote">"Super easy process from start to finish. I was skeptical about novated leasing at first but the team made it effortless. My payroll handles everything automatically and I just drive. The monthly cost is way better than I expected."</p>
+        <div class="testi-author">
+          <div class="testi-avatar">J</div>
+          <div>
+            <div class="testi-name">Jake</div>
+            <div class="testi-source">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg>
+              Google Review
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testi-card">
+        <div class="testi-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p class="testi-quote">"The FBT exemption is a genuine game-changer and Bright Leasing explained it better than anyone else I spoke to. They handled all the employer paperwork, got everything set up in about a week. The whole-of-life cost is outstanding value."</p>
+        <div class="testi-author">
+          <div class="testi-avatar">SS</div>
+          <div>
+            <div class="testi-name">Shane S.</div>
+            <div class="testi-source">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg>
+              Google Review
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ─── BOTTOM CTA ─── -->
+<section class="bottom-cta" id="contact">
+  <div class="bottom-cta-inner">
+    <h2>You could save <span>$4,000+</span> this financial year</h2>
+    <p>See your personalised tax savings in 60 seconds. No obligation, no pushy sales calls.</p>
+    <div class="cta-actions">
+      <a href="#quote" class="btn btn-yellow" style="font-size:1rem; padding: 15px 32px;">Calculate My Savings →</a>
+      <div class="cta-divider"></div>
+      <a href="tel:1300988938" class="cta-phone-link">
+        <svg width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" color="#52BAC7"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+        1300 988 938
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ─── FOOTER ─── -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div class="footer-logo">
+          <svg viewBox="0 0 1261 344" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M49.9463 71.5244C50.6779 71.5244 51.4508 71.6929 52.4307 71.9824C53.0972 72.1794 53.9179 72.4506 54.8086 72.7129V106.827C54.4006 107.059 54.0593 107.266 53.8359 107.392C53.5077 107.576 53.3887 107.61 53.3711 107.615C40.1533 107.581 27.0112 107.754 13.8564 107.236C8.54432 107.024 5.02552 103.513 3.50684 98L3.50586 97.9971C1.78113 91.7886 1.34968 85.7 3.57422 79.6943L3.5752 79.6934C5.16701 75.3827 7.96369 72.5247 12.167 72.3193L12.166 72.3184C24.737 71.7657 37.3127 71.6273 49.9463 71.5234V71.5244Z" fill="#FFBD34" stroke="#FFBD34" stroke-width="2.77642"/>
+            <path d="M19.0415 316.491C18.9723 273.739 19.5956 230.88 18.729 188.081V188.08C18.3578 169.93 25.7497 156.516 38.2603 144.534L38.2798 144.515C38.9153 143.882 39.6233 143.304 40.395 142.676L40.4185 142.656C50.8985 133.727 58.7535 123.419 63.4565 109.863L63.4575 109.861C72.8688 82.6438 83.7349 55.9048 94.5151 29.1211L94.5142 29.1201C96.9105 23.2067 100.567 17.4712 104.776 12.6045L104.778 12.6025C110.499 5.95666 118.402 2.90625 127.427 2.90625C143.215 2.90625 158.998 3.00979 174.769 2.90625L174.768 2.90527C216.139 2.66377 278.888 2.3203 320.295 2.11328C323.967 2.11336 327.681 2.31315 331.17 3.04297V3.06543L332.24 3.31738C336.419 4.30528 338.393 7.44574 337.941 10.8223L337.94 10.8232C337.661 12.9252 336.903 14.4748 335.794 15.5684C334.682 16.6651 333.109 17.4092 331.014 17.7051L331.003 17.707C328.801 18.0343 326.514 18.0371 324.139 18.0371C267.379 18.0371 189.245 18.1054 132.456 17.8984C126.869 17.8804 122.337 19.2944 118.659 21.9424C115.226 24.4137 112.627 27.8952 110.591 32.0771L110.192 32.9229C106.811 40.2806 103.948 47.893 100.981 55.3467L100.98 55.3486C93.8084 73.4253 86.6708 91.4683 79.5679 109.581C79.2029 110.49 78.9926 111.438 78.7993 112.458C78.6005 113.507 78.4212 114.622 78.1138 116.051L77.7837 117.584L79.3452 117.726C83.0207 118.058 86.3552 118.594 89.5884 118.594H89.5981C113.957 118.421 149.266 118.197 178.485 118.016C193.094 117.925 206.181 117.845 215.616 117.788C220.333 117.76 224.138 117.737 226.763 117.722C226.829 117.721 226.895 117.72 226.959 117.72L148.88 182.711C148.82 182.702 148.755 182.693 148.686 182.683C148.157 182.604 147.379 182.488 146.382 182.341C144.389 182.046 141.524 181.622 138.034 181.107C131.053 180.079 121.572 178.688 111.574 177.238C91.5917 174.342 69.5014 171.206 61.1919 170.271H61.1909C53.6518 169.427 47.8112 172.147 43.7681 175.924C39.7711 179.658 37.4798 184.471 36.9995 187.99L36.9985 187.993C36.3506 192.823 37.6231 199.911 39.6919 206.517C41.7633 213.131 44.741 219.604 47.7437 223.162V223.161C50.1274 225.999 53.5011 227.885 57.1577 229.151C60.8216 230.42 64.8623 231.097 68.689 231.459C72.5214 231.821 76.1848 231.87 79.103 231.859C79.833 231.857 80.5179 231.851 81.146 231.845C81.7757 231.839 82.3453 231.833 82.853 231.831C83.9025 231.828 84.5847 231.843 84.939 231.889C86.6568 232.117 90.5198 232.259 95.5688 232.351C100.661 232.443 107.056 232.485 113.902 232.5C127.375 232.53 142.642 232.455 153.166 232.453C153.253 232.524 153.354 232.606 153.469 232.699C153.917 233.062 154.573 233.594 155.409 234.271C157.08 235.627 159.468 237.565 162.334 239.896C168.068 244.557 175.717 250.787 183.379 257.062C191.043 263.339 198.716 269.659 204.5 274.501C207.394 276.923 209.809 278.971 211.511 280.456C212.364 281.2 213.028 281.794 213.481 282.22C213.683 282.41 213.832 282.557 213.932 282.661C214.601 285.12 214.301 287.408 213.304 289.12C212.289 290.864 210.493 292.124 207.958 292.375H207.953C204.338 292.745 200.666 292.644 196.871 292.644H196.872C175.976 292.575 130.824 292.506 109.928 292.506C106.784 292.506 103.505 293.154 99.9019 293.549L98.7778 293.673L98.6714 294.798C98.3376 298.321 97.9039 300.977 97.8677 303.529C97.7268 311.107 98.0072 318.397 97.6265 325.842V325.846C97.3954 330.645 95.954 334.251 93.5562 336.677C91.1657 339.095 87.6628 340.506 82.9761 340.604H82.9751C67.2328 340.948 51.4844 340.878 35.73 340.603C27.5762 340.442 21.7239 335.376 19.981 327.31L19.98 327.305L19.8433 326.651C19.1941 323.37 19.0415 319.924 19.0415 316.493V316.491Z" fill="#FFBD34" stroke="#FFBD34" stroke-width="2.77642"/>
+            <path d="M164.476 203.404L333.837 67.3594" stroke="#FFBD34" stroke-width="14.2668" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M164.476 203.401L333.837 203.401" stroke="#FFBD34" stroke-width="14.2668" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M164.476 203.401L328.285 336.67" stroke="#FFBD34" stroke-width="14.2668" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M377.015 4.01562H430.531C459.885 4.01562 473.493 6.83241 486.151 20.9156C493.888 28.8905 496.467 39.4444 496.467 49.5572C496.467 62.9278 490.359 76.5359 476.276 84.5447C504.205 94.4199 504.917 117.632 504.917 124.928C504.917 138.773 499.522 154.045 488.968 162.732C473.018 176.103 461.514 177.765 432.16 177.765H377.015V4.08356V4.01562ZM419.502 69.9523H435.214C441.322 69.9523 453.98 69.9524 453.98 56.1067C453.98 42.2611 442.001 42.9737 435.214 42.9737H419.502V69.9523ZM419.502 138.74H440.406C446.039 138.74 462.464 138.74 462.464 122.077C462.464 107.044 447.431 107.044 440.406 107.044H419.502V138.74Z" fill="white"/>
+            <path d="M533.593 4.01562H588.534C619.042 4.01562 630.784 7.78261 642.051 16.4701C656.372 27.7367 663.396 46.0618 663.396 63.8779C663.396 83.832 653.08 113.186 620.196 118.582L667.367 177.731H616.667L576.522 121.636H576.046V177.731H533.559V4.04959L533.593 4.01562ZM576.08 91.3318H591.793C617.855 91.3318 620.909 74.907 620.909 66.457C620.909 50.7449 609.405 42.9737 592.268 42.9737H576.08V91.3318Z" fill="white"/>
+            <path d="M691.563 4.01562H735.917V177.697H691.563V4.01562Z" fill="white"/>
+            <path d="M949.302 78.878C949.54 81.9321 949.54 84.5113 949.54 88.0406C949.54 146.24 904.949 181.228 856.828 181.228C804.262 181.228 764.592 140.165 764.592 90.1446C764.592 40.1236 806.366 0.724609 857.541 0.724609C899.078 0.724609 934.778 28.6535 944.382 62.2157H894.633C887.812 49.9989 875.154 39.6825 856.387 39.6825C834.567 39.6825 808.98 55.8697 808.98 90.1446C808.98 126.523 834.804 142.27 856.624 142.27C878.445 142.27 893.478 131.24 898.161 114.341H846.275V78.9119H949.336L949.302 78.878Z" fill="white"/>
+            <path d="M977.231 4.01562H1021.59V69.2737H1078.39V4.01562H1122.75V177.697H1078.39V108.232H1021.59V177.697H977.231V4.01562Z" fill="white"/>
+            <path d="M1179.83 42.9737H1145.55V4.01562H1258.22V42.9737H1224.18V177.697H1179.83V42.9737Z" fill="white"/>
+            <path d="M382.783 340.349V217.062H395.169V329.184H446.107V340.349H382.783Z" fill="white"/>
+            <path d="M494.397 340.349V217.062H561.929V228.226H506.75V272.58H560.198V283.745H506.75V329.218H561.929V340.383H494.397V340.349Z" fill="white"/>
+            <path d="M663.769 217.062H677.275L730.248 340.349H716.708L699.164 298.676H641.269L623.827 340.349H610.795L663.769 217.062ZM645.987 287.546H694.718L670.149 229.753H670.25L645.953 287.546H645.987Z" fill="white"/>
+            <path d="M832.7 248.453C831.954 241.564 829.544 236.1 825.539 232.062C821.535 228.024 816.445 225.988 810.302 225.988C804.16 225.988 798.697 227.99 794.353 231.994C790.009 235.998 787.837 240.919 787.837 246.722C787.837 252.525 789.738 256.903 793.538 260.296C797.339 263.724 803.787 266.642 812.882 269.086C825.03 272.411 833.854 277.027 839.385 282.999C844.883 288.972 847.631 296.845 847.631 306.686C847.631 316.527 844 325.113 836.738 332.036C829.476 338.959 820.551 342.42 810.031 342.42C798.866 342.42 789.771 339.027 782.848 332.24C775.891 325.453 772.431 316.629 772.431 305.804H784.647C785.563 314.152 788.176 320.498 792.52 324.842C796.83 329.185 802.701 331.357 810.065 331.357C817.429 331.357 823.266 329.05 828.22 324.401C833.175 319.751 835.618 314.118 835.618 307.433C835.618 300.747 833.447 294.944 829.137 290.838C824.827 286.766 817.531 283.339 807.215 280.488C796.253 277.502 788.244 273.395 783.256 268.101C778.301 262.909 775.824 256.021 775.824 247.435C775.824 238.306 779.15 230.603 785.835 224.325C792.52 218.047 800.699 214.891 810.336 214.891C819.974 214.891 828.356 218.081 834.906 224.46C841.489 230.84 844.747 238.815 844.747 248.419H832.7V248.453Z" fill="white"/>
+            <path d="M901.182 217.062H913.534V340.349H901.182V217.062Z" fill="white"/>
+            <path d="M987.718 340.349H975.365V217.062H992.197L1061.12 318.97V217.062H1073.47V340.349H1061.02L987.684 232.095V340.349H987.718Z" fill="white"/>
+            <path d="M1196.15 342.454C1177.48 342.454 1161.7 336.311 1148.84 323.993C1135.95 311.674 1129.53 296.607 1129.53 278.757C1129.53 260.907 1136.05 245.805 1149.05 233.487C1162.08 221.134 1177.99 214.958 1196.83 214.958C1208.91 214.958 1220.38 218.216 1231.2 224.765C1242.03 231.315 1249.73 239.629 1254.28 249.708H1239.89C1235.75 242.751 1229.74 237.084 1221.87 232.672C1213.96 228.261 1205.85 226.055 1197.51 226.055C1182 226.055 1168.86 231.145 1158.17 241.36C1147.45 251.574 1142.09 264.029 1142.09 278.791C1142.09 293.553 1147.38 306.007 1158 316.188C1168.63 326.368 1181.59 331.459 1196.96 331.459C1211.39 331.459 1223.57 326.334 1233.51 316.12C1239.65 309.774 1243.86 302.647 1246.2 294.74H1177.45V283.677H1260.76C1259.74 299.457 1253.53 312.93 1242.13 324.027C1229.64 336.345 1214.37 342.488 1196.25 342.488L1196.15 342.454Z" fill="white"/>
+          </svg>
+        </div>
+        <p class="footer-tagline">Save thousands on your next car</p>
+      </div>
+      <div class="footer-contact">
+        <a href="tel:1300988938">
+          <svg width="15" height="15" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+          1300 988 938
+        </a>
+        <a href="mailto:hello@brightleasing.com.au">
+          <svg width="15" height="15" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+          hello@brightleasing.com.au
+        </a>
+      </div>
+    </div>
+    <hr class="footer-divider" />
+    <p class="footer-disclaimer">
+      <strong>Disclaimer:</strong> Tax savings figures are estimates based on a typical Australian income earner and are provided for illustrative purposes only. Actual savings will vary depending on your income, employer, lease term, vehicle selection, and individual circumstances. The FBT exemption applies to eligible electric vehicles with a taxable value under the luxury car tax threshold for fuel-efficient vehicles ($91,387 for 2025–26 FY) as per the Treasury Laws Amendment (Electric Car Discount) Act 2022. We recommend obtaining independent financial and tax advice before entering into a novated lease arrangement. Bright Leasing Pty Ltd is a credit representative of an Australian Credit Licensee.
+    </p>
+    <p class="footer-copy">&copy; 2026 Bright Leasing Pty Ltd. All rights reserved. Australian Owned &amp; Operated.</p>
+  </div>
+</footer>
+
+<!-- ─── JAVASCRIPT ─── -->
+<!-- ─── STICKY MOBILE CTA ─── -->
+<div class="mobile-sticky-cta" id="mobileCta">
+  <a href="#quote" class="btn btn-yellow">See My Tax Savings →</a>
+</div>
+
+<script>
+  // Show/hide sticky mobile CTA after scrolling past hero
+  (function() {
+    const cta = document.getElementById('mobileCta');
+    const hero = document.getElementById('home');
+    if (!cta || !hero) return;
+    const observer = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry) {
+        cta.style.transform = entry.isIntersecting ? 'translateY(100%)' : 'translateY(0)';
+        cta.style.transition = 'transform 0.3s ease';
+      });
+    }, { threshold: 0.1 });
+    observer.observe(hero);
+    cta.style.transform = 'translateY(100%)';
+  })();
+
+  // Format number with commas
+  function formatNumber(val) {
+    return val.replace(/\D/g, '').replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+  }
+
+  // Auto-format dollar inputs
+  document.querySelectorAll('#wiz-car-price, #wiz-income').forEach(input => {
+    input.addEventListener('input', function() {
+      const raw = this.value.replace(/\D/g, '');
+      this.value = formatNumber(raw);
+    });
+  });
+
+  // Wizard navigation
+  function showStep(n) {
+    document.querySelectorAll('.wizard-step').forEach(s => s.classList.remove('active'));
+    const target = n === 'done'
+      ? document.getElementById('wizardThankyou')
+      : document.querySelector('.wizard-step[data-step="' + n + '"]');
+    if (target) target.classList.add('active');
+  }
+
+  function wizardNext(current) {
+    // Validate current step
+    if (current === 1) {
+      const val = parseInt(document.getElementById('wiz-car-price').value.replace(/\D/g, ''));
+      if (!val || val < 15000) {
+        document.getElementById('wiz-car-price').style.borderColor = '#e74c3c';
+        return;
+      }
+    }
+    if (current === 2) {
+      const val = parseInt(document.getElementById('wiz-income').value.replace(/\D/g, ''));
+      if (!val || val < 20000) {
+        document.getElementById('wiz-income').style.borderColor = '#e74c3c';
+        return;
+      }
+    }
+    if (current === 3) {
+      if (!document.getElementById('wiz-state').value) {
+        document.getElementById('wiz-state').style.borderColor = '#e74c3c';
+        return;
+      }
+    }
+    if (current === 4) {
+      if (!document.getElementById('wiz-employer').value.trim()) {
+        document.getElementById('wiz-employer').style.borderColor = '#e74c3c';
+        return;
+      }
+    }
+    showStep(current + 1);
+  }
+
+  function wizardBack(current) {
+    showStep(current - 1);
+  }
+
+  async function wizardSubmit() {
+    const fname = document.getElementById('wiz-fname').value.trim();
+    const lname = document.getElementById('wiz-lname').value.trim();
+    const phone = document.getElementById('wiz-phone').value.trim();
+    const email = document.getElementById('wiz-email').value.trim();
+
+    if (!fname || !lname || !phone || !email) {
+      if (!fname) document.getElementById('wiz-fname').style.borderColor = '#e74c3c';
+      if (!lname) document.getElementById('wiz-lname').style.borderColor = '#e74c3c';
+      if (!phone) document.getElementById('wiz-phone').style.borderColor = '#e74c3c';
+      if (!email) document.getElementById('wiz-email').style.borderColor = '#e74c3c';
+      return;
+    }
+
+    const btn = document.querySelector('.wizard-step[data-step="5"] .wizard-next');
+    btn.textContent = 'Sending...';
+    btn.disabled = true;
+
+    const data = {
+      car_price: document.getElementById('wiz-car-price').value,
+      income:    document.getElementById('wiz-income').value,
+      state:     document.getElementById('wiz-state').value,
+      employer:  document.getElementById('wiz-employer').value,
+      first_name: fname,
+      last_name:  lname,
+      phone:      phone,
+      email:      email,
+      source:     'tax-saver-landing'
+    };
+
+    try {
+      await fetch('/api/quote', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(data),
+      });
+    } catch (err) {
+      // Endpoint is a placeholder
+    }
+
+    // Fire conversion events
+    // gtag('event', 'conversion', {'send_to': 'AW-XXXXXXXXX/XXXXXXXX'});
+    // fbq('track', 'Lead');
+
+    showStep('done');
+  }
+
+  // Reset red borders on focus
+  document.querySelectorAll('.wizard-input, .wizard-select, .wizard-contact-input').forEach(el => {
+    el.addEventListener('focus', function() {
+      this.style.borderColor = '#52BAC7';
+    });
+  });
+
+  // Allow Enter key to advance steps
+  document.querySelectorAll('.wizard-input, .wizard-contact-input').forEach(el => {
+    el.addEventListener('keydown', function(e) {
+      if (e.key === 'Enter') {
+        e.preventDefault();
+        const step = this.closest('.wizard-step');
+        const btn = step.querySelector('.wizard-next');
+        if (btn) btn.click();
+      }
+    });
+  });
+
+  // Smooth anchor scroll with offset for sticky header
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+      const target = document.querySelector(this.getAttribute('href'));
+      if (!target) return;
+      e.preventDefault();
+      const headerHeight = document.querySelector('.header').offsetHeight;
+      const top = target.getBoundingClientRect().top + window.scrollY - headerHeight - 16;
+      window.scrollTo({ top, behavior: 'smooth' });
+    });
+  });
+</script>
+
+</body>
+</html>
