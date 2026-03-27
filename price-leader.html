@@ -937,6 +937,73 @@
       margin-top: 12px;
     }
 
+    /* ─── STICKY MOBILE CTA ─── */
+    .mobile-sticky-cta {
+      display: none;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: var(--navy);
+      border-top: 1px solid rgba(82,186,199,0.15);
+      padding: 12px 20px;
+      z-index: 999;
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+    }
+    .mobile-sticky-cta .btn {
+      width: 100%;
+      text-align: center;
+      padding: 14px;
+      font-size: 1rem;
+      font-weight: 700;
+    }
+    @media (max-width: 900px) {
+      .mobile-sticky-cta { display: block; }
+      body { padding-bottom: 72px; }
+    }
+
+    /* ─── MID-PAGE CTA ─── */
+    .mid-cta {
+      background: linear-gradient(135deg, var(--teal), #3a9ba8);
+      padding: 48px 24px;
+      text-align: center;
+    }
+    .mid-cta-inner {
+      max-width: 640px;
+      margin: 0 auto;
+    }
+    .mid-cta h2 {
+      font-size: 1.5rem;
+      font-weight: 800;
+      color: var(--white);
+      margin-bottom: 8px;
+    }
+    .mid-cta p {
+      font-size: 0.95rem;
+      color: rgba(255,255,255,0.85);
+      margin-bottom: 20px;
+    }
+    .mid-cta .btn { font-size: 1rem; padding: 14px 32px; }
+
+    /* ─── URGENCY BADGE ─── */
+    .urgency-badge {
+      display: inline-block;
+      background: rgba(255,189,52,0.15);
+      border: 1px solid rgba(255,189,52,0.4);
+      color: var(--yellow);
+      font-size: 0.82rem;
+      font-weight: 600;
+      padding: 6px 14px;
+      border-radius: 20px;
+      margin-top: 16px;
+      animation: pulse-glow 2s ease-in-out infinite;
+    }
+    @keyframes pulse-glow {
+      0%, 100% { box-shadow: 0 0 0 0 rgba(255,189,52,0.3); }
+      50% { box-shadow: 0 0 12px 4px rgba(255,189,52,0.15); }
+    }
+
     /* ─── MOBILE ─── */
     @media (max-width: 900px) {
       .hero-inner { grid-template-columns: 1fr; gap: 48px; }
@@ -1006,7 +1073,7 @@
     <div class="hero-content">
       <div class="hero-badge"><span></span> Prices You Won't Believe</div>
       <h1>Drive an EV from<br><span class="price-highlight">$156/week.</span><br><em>Seriously.</em></h1>
-      <p class="hero-sub">All-inclusive novated lease packages — insurance, rego, servicing, even charging. One payment, straight from your pre-tax salary. No deposit. No catch.</p>
+      <p class="hero-sub">Insurance, rego, servicing & charging included. One pre-tax payment. No deposit.</p>
 
       <div class="hero-price-strip">
         <div class="price-card">
@@ -1030,6 +1097,7 @@
         <a href="#quote" class="btn btn-yellow" style="padding: 14px 28px;">See My Price →</a>
         <a href="tel:1300988938" class="btn btn-outline">Call 1300 988 938</a>
       </div>
+      <div class="urgency-badge">Limited pricing — FY26 rates lock in when you apply</div>
     </div>
 
     <div class="wizard-card" id="quote">
@@ -1443,6 +1511,15 @@
   </div>
 </section>
 
+<!-- ─── MID-PAGE CTA ─── -->
+<section class="mid-cta">
+  <div class="mid-cta-inner">
+    <h2>Ready to see your price?</h2>
+    <p>Get a personalised quote in 60 seconds — no obligation, no credit check.</p>
+    <a href="#quote" class="btn btn-yellow">Get My Price →</a>
+  </div>
+</section>
+
 <!-- ─── TESTIMONIALS ─── -->
 <section class="testimonials" id="reviews">
   <div class="section-inner">
@@ -1567,7 +1644,27 @@
 </footer>
 
 <!-- ─── JAVASCRIPT ─── -->
+<!-- ─── STICKY MOBILE CTA ─── -->
+<div class="mobile-sticky-cta" id="mobileCta">
+  <a href="#quote" class="btn btn-yellow">Get My Price — From $156/wk →</a>
+</div>
+
 <script>
+  // Show/hide sticky mobile CTA after scrolling past hero
+  (function() {
+    const cta = document.getElementById('mobileCta');
+    const hero = document.getElementById('home');
+    if (!cta || !hero) return;
+    const observer = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry) {
+        cta.style.transform = entry.isIntersecting ? 'translateY(100%)' : 'translateY(0)';
+        cta.style.transition = 'transform 0.3s ease';
+      });
+    }, { threshold: 0.1 });
+    observer.observe(hero);
+    cta.style.transform = 'translateY(100%)';
+  })();
+
   // Format number with commas
   function formatNumber(val) {
     return val.replace(/\D/g, '').replace(/\B(?=(\d{3})+(?!\d))/g, ',');
